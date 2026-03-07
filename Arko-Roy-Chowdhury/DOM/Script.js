@@ -23,8 +23,21 @@
 //     console.log(ele.innerText);
 // }
 
-let tag = document.getElementsByTagName("h1");
-for (let i = 0; i < tag.length; i++)
-{
-    console.log(tag[i].innerText);
-}
+// let tag = document.getElementsByTagName("h1");
+// for (let i = 0; i < tag.length; i++)
+// {
+//     console.log(tag[i].innerText);
+// }
+// console.log(tag);
+
+//querySelector
+// let q = document.querySelector("h1") //Returns the first match
+// console.log(q);
+// for(let i=0; i<q.length; i++)
+// {
+//     console.log(q[i].innerText);
+// }
+
+//querySelectorAll
+// let q = document.querySelectorAll("h1") //Returns all the matches in the form of a node list
+// console.log(q);
