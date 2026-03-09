@@ -39,13 +39,29 @@
 // q.innerText=str; //innerText is a property of an HTML element that represents the visible text content of that element. When you set the innerText property, it updates the text content of the element to the specified string. In this case, when you assign the value of str ("my first text") to q.innerText, it will change the text displayed within the element represented by q to "my first text".
 // console.log(q.innerText);
 
-let cont=document.getElementById("container")
-cont.style.backgroundColor="yellow" //style is a property of an HTML element that allows you to access and modify the inline styles of that element. When you set the backgroundColor property of the style object, it changes the background color of the element to the specified value. In this case, when you assign "red" to cont.style.backgroundColor, it will change the background color of the element with the id "container" to red.
-cont.style.fontSize="20px"
-cont.style.padding="10px"
-cont.style.margin="50px"
-cont.style.border="2px solid black"
-cont.style.borderRadius="10px"
-cont.style.display="flex"
-cont.style.justifyContent="center"
-cont.style.alignItems="center"
+// let cont=document.getElementById("container")
+// cont.style.backgroundColor="yellow" //style is a property of an HTML element that allows you to access and modify the inline styles of that element. When you set the backgroundColor property of the style object, it changes the background color of the element to the specified value. In this case, when you assign "red" to cont.style.backgroundColor, it will change the background color of the element with the id "container" to red.
+// cont.style.fontSize="20px"
+// cont.style.padding="10px"
+// cont.style.margin="50px"
+// cont.style.border="2px solid black"
+// cont.style.borderRadius="10px"
+// cont.style.display="flex"
+// cont.style.justifyContent="center" // justifyContent is a CSS property that is used to align and distribute space among items along the main axis of a flex container. When you set justifyContent to "center", it centers the items horizontally within the flex container. In this case, when you assign "center" to cont.style.justifyContent, it will center the content within the element with the id "container" horizontally.
+// cont.style.alignItems="center" // alignItems is a CSS property that is used to align and distribute space among items along the cross axis of a flex container. When you set alignItems to "center", it centers the items vertically within the flex container. In this case, when you assign "center" to cont.style.alignItems, it will center the content within the element with the id "container" vertically.
+
+// function redcolor(){
+    //     const element=document.querySelector("#three");
+    //     element.className="red";
+    // }
+    // but.onclick=redcolor;
+    let colors=["red","green","blue","orange"]
+    function colorise(){
+        const element=document.querySelectorAll(".num");
+        colors.reverse();
+        for (let i=0;i<element.length;i++){
+            element[i].id=colors[i];
+        }
+    }
+    const but=document.querySelector("#red")
+    but.addEventListener("click",colorise)
