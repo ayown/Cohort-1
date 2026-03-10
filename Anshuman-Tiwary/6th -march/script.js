@@ -34,15 +34,29 @@
 // }
 
 //querySelector
-let q=document.querySelector(".mera-class")
-console.log(q)
-for(let i=0;i<q.length;i++){
-    console.log(q[i].innerText)
-}
+// let q=document.querySelector(".mera-class")
+// console.log(q)
+// for(let i=0;i<q.length;i++){
+//     console.log(q[i].innerText)
+// }
 
-//dom properties
-//inner text
-let str="my first push"
-console.log(q.innerText)
-q.innerText=str
-console.log(q.innerText)
+// //dom properties
+// //inner text
+// let str="my first push"
+// console.log(q.innerText)
+// q.innerText=str
+// console.log(q.innerText)
+let cont=document.getElementById('div-containor')
+ 
+cont.style.background='yellow'
+cont.style.forntSize='24px'
+cont.style.padding='20px'
+cont.style.margin='50px'
+cont.style.border='12px solid blue'
+cont.style.borderRadius="50%"
+cont.style.display="flex"
+cont.style.justifyContent="center"
+cont.style.alignItems="center"
+
+
+
