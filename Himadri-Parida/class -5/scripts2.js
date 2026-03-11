@@ -13,7 +13,7 @@ let colors = ['red','blue','yellow','purple']
 function colorise(){
     const element = document.querySelectorAll('.num') 
     colors.reverse()
-    for(let i =0 ; i<element.length ; i++){
+    for(let i = 0; i<element.length ; i++){    
         element[i].id = colors[i]; // here we are changing the Color of the elements 
     }
 }
