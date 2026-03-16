@@ -17,5 +17,5 @@ Access Control:
 The mechanisms and policies that govern who can access what resources and under what conditions
 
 Why is JSON needed?
-We convert JSON t
+We convert JSON 
 SYNTAX:
