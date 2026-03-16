@@ -18,4 +18,9 @@ button{
     color: lawngreen;
     background-color: blueviolet;
 }
-
+#csstask {
+  font-size: 20px;   /* makes text bigger */
+  padding: 10px;     /* adds space inside the task box */
+  margin: 5px 0;     /* adds space between tasks */
+  background-color: #ffffff; /* optional: light background */
+}
