@@ -126,3 +126,111 @@
 // arrow("arrow1","arrow2",1)
 // const arr=[2,3,4]
 // console.log(...arr)
+
+// const element=document.getElementsByClassName('num');
+// console.log(element)
+
+// let colors=['red','yellow','blue','green'];
+// let i=0;
+// for(e of element){
+//     e.style.color=colors[i];
+//     i++;
+// }
+// const arr=[1,2,3]
+// for(let i=0;i<arr,length;i++){
+//     console.log(arr[i])
+// }
+// console.log('For each loop')
+// for(e of arr){
+//     console.log(e)
+// }
+
+
+// const element=document.getElementsByClassName('num')
+// console.log(element)
+// let colors=['red','orange','green','blue'];
+// let i=0;
+// for(e of element){
+//     e.style.color=colors[i];
+//     i++;
+// }
+// function colorise(){
+//     const element=document.getElementsByClassName('num');
+//     colors.reverse()
+//     console.log(colors)
+//     for(let i=0;i<element.length;i++){
+//         element[i].id=colors[i];
+
+
+//     }
+// }
+// const but=document.querySelector('#but');
+// let colors=['red','orange','green','blue'];
+// // const but=document.querySelector('#red');
+// function redcolor(){
+//     const element=document.querySelector('#three')
+//     element.className='red';
+// }
+// // but.onclick=redcolor
+// but.addEventListener('click',colorise)
+
+
+//setting/adding elements to the Dom
+// let div=document.getElementById("div-container")
+// const btn=document.createElement("button")
+// btn.textContent="click me"
+// div.appendChild(btn)//to add in front use prepend
+// div.removeChild(btn)//remove single element
+
+
+//Event Handling
+// const btn=document.getElementById("btn");
+// btn.onclick=function(){
+//     alert("hello world")
+// }
+
+//addEventLIstener with all elements
+// btn.addEventListener("mouseeneter",function(){
+//     this.style.background="red"
+// });
+// btn.addEventListener("mouseleave",function(){
+//     this.style.bacground="blue"
+// })
+
+//FORM MANIPULATION/VALIDATION
+// const form=document.getElementById("registrationForm")
+// form.addEventListener("submit",function(ele){
+//     ele.preventDefault() //preventDefault()stops the browser from refresing the page
+// })
+
+//Values reading
+// const username=document.getElementById("Username").value.trim() 
+// const email=document.getElementById("email").value.trim()
+// console.log("Username",username)
+// console.log("Email:",email)
+// //Form validation:checking the values of username 
+// // and email(any other fields)to validate in the form
+// if(username === ""|| email=== ""){
+//     alert("please fill in all fields")
+// }
+// //"this" refers to the current present element-might be a
+// //  div or an input field or any form element
+// if(username.length<3){
+//     alert("username must be atleast 3 characters")
+//     this.StylePropertyMap.border="2px solid red"
+// }
+
+const para=document.getElementById("para")
+
+//Adds a class name to that element
+para.classList.add("para class")
+
+//$ sign meaning
+let docs='guyss'
+console.log("hii",$(docs))
+
+
+
+
+
+
